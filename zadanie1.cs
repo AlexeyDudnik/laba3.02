@@ -111,7 +111,7 @@ public class ClassRoom
     {
         foreach (var pupil in pupils)
         {
-            Console.WriteLine("--- Pupil Activities ---");
+            Console.WriteLine("Pupil Activities");
             pupil.Study();
             pupil.Read();
             pupil.Write();
