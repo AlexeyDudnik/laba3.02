@@ -69,13 +69,13 @@ class Program
         Vehicle plane = new Plane(100, 200, 1000000, 900, 2020, 10000, 200);
         Vehicle car = new Car(50, 50, 30000, 200, 2019);
         Vehicle ship = new Ship(0, 0, 5000000, 50, 2018, 500, "New York");
-        Console.WriteLine("--- Plane Info ---");
+        Console.WriteLine("Plane Info");
         plane.ShowInfo();
         Console.WriteLine();
-        Console.WriteLine("--- Car Info ---");
+        Console.WriteLine("Car Info);
         car.ShowInfo();
         Console.WriteLine();
-        Console.WriteLine("--- Ship Info ---");
+        Console.WriteLine("Ship Info");
         ship.ShowInfo();
     }
 }
